@@ -34,23 +34,55 @@ import ReactDOM from 'react-dom/client'
 //     </div>
 // )
 
-function App() {
+// const App = () => {
+//     return (
+//         <div className="div">
+//             <h1>Hello React</h1>
+//             <p>
+//                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+//                 Libero, repellat praesentium odit commodi porro officia
+//                 doloremque itaque quae, neque quam nulla sed numquam aliquid
+//                 sequi atque veniam soluta unde ipsa.
+//             </p>
+//             <p>
+//                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+//                 Molestiae repellat voluptas laborum incidunt, distinctio illum.
+//                 Sint cumque accusamus explicabo aliquam doloremque mollitia iure
+//                 cupiditate? Sint aut incidunt sed perferendis deleniti?
+//             </p>
+//         </div>
+//     )
+// }
+
+const Header = () => {
+    return <h1>Hello</h1>
+}
+
+const Con = () => {
     return (
-        <div className="div">
-            <h1>Hello React</h1>
+        <>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Libero, repellat praesentium odit commodi porro officia
-                doloremque itaque quae, neque quam nulla sed numquam aliquid
-                sequi atque veniam soluta unde ipsa.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                autem molestias tenetur veniam commodi corporis alias quam, quas
+                non quaerat sunt temporibus soluta quibusdam, magnam ut quidem
+                asperiores, quia fugiat.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae repellat voluptas laborum incidunt, distinctio illum.
-                Sint cumque accusamus explicabo aliquam doloremque mollitia iure
-                cupiditate? Sint aut incidunt sed perferendis deleniti?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                iusto sit praesentium itaque veritatis quaerat minus magni
+                omnis, suscipit commodi harum, amet ipsam explicabo adipisci
+                aspernatur fuga, blanditiis voluptatibus totam.]
             </p>
-        </div>
+        </>
+    )
+}
+
+const App = () => {
+    return (
+        <React.Fragment>
+            <Header />
+            <Con />
+        </React.Fragment>
     )
 }
 

@@ -77,8 +77,9 @@ const Con = () => {
 const App = () => {
     return (
         <React.Fragment>
+            <Header title="React" year={2010} />
             <Con />
-            <Header />
+            <Header title="TS" year={2015} />
         </React.Fragment>
     )
 }

@@ -1,3 +1,5 @@
+import './Article.css'
+
 type Props = {
     title: string
     description: string
@@ -8,11 +10,12 @@ const Article = ({ title, description, autor }: Props) => {
     return (
         <div className="div">
             <h2
-                style={{
-                    backgroundColor: 'purple',
-                    color: 'white',
-                    padding: '15px',
-                }}
+                className="article-title"
+                // style={{
+                //     backgroundColor: title === 'News 1' ? 'purple' : 'green',
+                //     color: 'white',
+                //     padding: '15px',
+                // }}
             >
                 {title}
             </h2>

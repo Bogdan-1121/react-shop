@@ -87,7 +87,7 @@ const App = () => {
                 autor="Bob"
             />
             <Article
-                title="News 1"
+                title="News 2"
                 description="lorem333333333333333333333333"
                 autor="Alex"
             />

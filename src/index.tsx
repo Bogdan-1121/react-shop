@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Header from './Header'
 
 // // without jsx
 // const title = React.createElement('h1', { id: 'title' }, 'Hello React')
@@ -54,10 +55,6 @@ import ReactDOM from 'react-dom/client'
 //     )
 // }
 
-const Header = () => {
-    return <h1>Hello</h1>
-}
-
 const Con = () => {
     return (
         <>
@@ -80,8 +77,8 @@ const Con = () => {
 const App = () => {
     return (
         <React.Fragment>
-            <Header />
             <Con />
+            <Header />
         </React.Fragment>
     )
 }

@@ -7,7 +7,15 @@ type Props = {
 const Article = ({ title, description, autor }: Props) => {
     return (
         <div className="div">
-            <h2>{title}</h2>
+            <h2
+                style={{
+                    backgroundColor: 'purple',
+                    color: 'white',
+                    padding: '15px',
+                }}
+            >
+                {title}
+            </h2>
             <p>{description}</p>
             <div>Author: {autor}</div>
         </div>

@@ -1,4 +1,4 @@
-import './Article.scss'
+import classes from './Article.module.scss'
 
 type Props = {
     title: string
@@ -10,7 +10,7 @@ const Article = ({ title, description, autor }: Props) => {
     return (
         <div className="div">
             <h2
-                className="article-title"
+                className={classes['article-title']}
                 // style={{
                 //     backgroundColor: title === 'News 1' ? 'purple' : 'green',
                 //     color: 'white',

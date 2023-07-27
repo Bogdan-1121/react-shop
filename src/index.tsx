@@ -68,7 +68,7 @@ const Con = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
                 iusto sit praesentium itaque veritatis quaerat minus magni
                 omnis, suscipit commodi harum, amet ipsam explicabo adipisci
-                aspernatur fuga, blanditiis voluptatibus totam.]
+                aspernatur fuga, blanditiis voluptatibus totam.
             </p>
         </>
     )

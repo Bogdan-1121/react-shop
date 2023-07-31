@@ -9,4 +9,5 @@ const Logo = (props: Props) => {
         </div>
     )
 }
+
 export default Logo
